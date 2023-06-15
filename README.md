@@ -1,5 +1,6 @@
 <h1><img src="https://www.emojimeaning.com/img/img-twitter-64/1f1eb-1f1f7.png" width="25" height="25">  Eudoxe-Injector-v2 🇫🇷 </h1>
 
+#### Author : Sx-Cheats
 
 >Eudoxe-Injector-v2 est un projet qui permet d'injecter des .dll.
 > Options possible :
@@ -9,6 +10,8 @@
 > * "Use CodeCave"   >permet de rechercher des "caves de mémoire" non utilisées.
 
 #### Pour plus de détails sur ces fonctions, c'est [ici](https://github.com/Sx-Cheats/NTapi)
+
+
 
 | Support  | supported |
 | ------------- | ------------- | 
