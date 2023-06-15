@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>qml;cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Translation Files">
+      <UniqueIdentifier>{639EADAA-A684-42e4-A9AD-28FC9BCB8F7C}</UniqueIdentifier>
+      <Extensions>ts</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>qrc;rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Header Files\NTapi">
+      <UniqueIdentifier>{eb3dd668-1d0c-4e3d-b970-af115aaf6ba4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Injector">
+      <UniqueIdentifier>{2f0e1c9d-9100-4a76-aa38-28e7fd4c1176}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\RunAs">
+      <UniqueIdentifier>{74cdb484-fde7-4949-b815-77a1062e2d8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\asmjit">
+      <UniqueIdentifier>{c6ddbf55-758b-4091-b356-aa36ea3dd22a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="SlnInjector.qrc">
+      <Filter>Header Files\Resource Files</Filter>
+    </QtRcc>
+    <QtUic Include="SlnInjector.ui">
+      <Filter>Header Files\Form Files</Filter>
+    </QtUic>
+    <QtMoc Include="EudoxeInjector.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NTapi\NTapi.cpp">
+      <Filter>Header Files\NTapi</Filter>
+    </ClCompile>
+    <ClCompile Include="Injector\InjectorAPI.cpp">
+      <Filter>Header Files\Injector</Filter>
+    </ClCompile>
+    <ClCompile Include="RunAs\RunAs.cpp">
+      <Filter>Header Files\RunAs</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="gui.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="QtComponents.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NTapi\NTapi.h">
+      <Filter>Header Files\NTapi</Filter>
+    </ClInclude>
+    <ClInclude Include="Injector\InjectorAPI.h">
+      <Filter>Header Files\Injector</Filter>
+    </ClInclude>
+    <ClInclude Include="RunAs\RunAs.h">
+      <Filter>Header Files\RunAs</Filter>
+    </ClInclude>
+    <ClInclude Include="asmjit\headers\a64.h">
+      <Filter>Header Files\asmjit</Filter>
+    </ClInclude>
+    <ClInclude Include="asmjit\headers\arm.h">
+      <Filter>Header Files\asmjit</Filter>
+    </ClInclude>
+    <ClInclude Include="asmjit\headers\asmjit.h">
+      <Filter>Header Files\asmjit</Filter>
+    </ClInclude>
+    <ClInclude Include="asmjit\headers\asmjit-scope-begin.h">
+      <Filter>Header Files\asmjit</Filter>
+    </ClInclude>
+    <ClInclude Include="asmjit\headers\asmjit-scope-end.h">
+      <Filter>Header Files\asmjit</Filter>
+    </ClInclude>
+    <ClInclude Include="asmjit\headers\core.h">
+      <Filter>Header Files\asmjit</Filter>
+    </ClInclude>
+    <ClInclude Include="asmjit\headers\x86.h">
+      <Filter>Header Files\asmjit</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
