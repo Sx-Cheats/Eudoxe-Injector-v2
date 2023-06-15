@@ -17,7 +17,7 @@
 
 « Eudoxe-Injector-v2 » ne prend pas en charge actuellement le mode x32. Si j'ai le temps, j'implémenterai une API Wow64 x64 -> x32 ou je mettrai en place un serveur avec des sockets. To be continue ...
 
-### Je remarque souvent de nombreux clones sans aucun support ni Star. Si vous êtes des personnes qui copient ou volent le code des autres, je vous invite à partir 😛.
+## Je remarque souvent de nombreux clones sans aucun support ni Star. Si vous êtes des personnes qui copient ou volent le code des autres, je vous invite à partir 😛.
 
 [Article sur l'injecteur](https://github.com/Sx-Cheats/Injector-Article)
 
