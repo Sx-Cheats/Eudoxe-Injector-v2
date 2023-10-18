@@ -29,5 +29,3 @@
 #### Pour plus de détails sur les fonctionnalités de l'injecteur, je vous invite à lire mon article [ici](https://github.com/Sx-Cheats/Injector-Article)
 
 
-![](https://img.shields.io/static/v1?label=Discord&message=$x%232170&color=blue)
-
